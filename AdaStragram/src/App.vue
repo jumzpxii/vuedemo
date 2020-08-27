@@ -1,13 +1,19 @@
 <template>
   <div id="app">
     <h1>Ada มาเยือน~</h1>
+    <Profile></Profile>
     <router-view/>
   </div>
 </template>
 
 <script>
+import Profile from '@/components/Profile'
+
 export default {
-  name: 'App'
+  name: 'App',
+  components: {
+    Profile
+  }
 }
 </script>
 
