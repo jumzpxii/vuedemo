@@ -1,18 +1,21 @@
 <template>
   <div id="app">
-    <h1>Ada มาเยือน~</h1>
     <Profile></Profile>
+    <GridImages></GridImages>
+
     <router-view/>
   </div>
 </template>
 
 <script>
 import Profile from '@/components/Profile'
+import GridImages from '@/components/GridImages'
 
 export default {
   name: 'App',
   components: {
-    Profile
+    Profile,
+    GridImages
   }
 }
 </script>
@@ -24,6 +27,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin: 2em
 }
 </style>
