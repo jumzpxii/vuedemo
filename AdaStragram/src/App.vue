@@ -1,22 +1,14 @@
 <template>
   <div id="app">
-    <Profile></Profile>
-    <GridImages></GridImages>
-
     <router-view/>
   </div>
 </template>
 
 <script>
-import Profile from '@/components/Profile'
-import GridImages from '@/components/GridImages'
+
 
 export default {
   name: 'App',
-  components: {
-    Profile,
-    GridImages
-  }
 }
 </script>
 
